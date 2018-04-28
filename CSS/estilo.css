@@ -1,0 +1,94 @@
+@import url(/CSS/header.css)
+@import url(/CSS/nav.css)  
+@import url(slider.css) 
+@import url(/CSS/noticias.css)
+@import url(/CSS/quehacemos.css)   
+@import url(/CSS/junta.css)   
+@import url(/CSS/redessociales.css);    
+@import url(/CSS/mapa.css);
+    
+   /* Paleta de Colores
+    #bf9d78d1  cafe
+    #ffd700    amarillo logo
+    #ffd700d9   amarillo mas trasparente que el logo
+    #0acc33  verde del logo
+    
+    
+    */
+*{
+    max-width: 1600px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    --color-ppal : orange;
+    --color-bg  :rgb(15,15,21,.1);
+}
+body{
+    background: var(--color-bg);
+   
+}
+
+
+
+/*TODA LA CONFIGURACION DEL MAPA DE NAVEGACION EN ORDEN DESCENDENTE*/
+.main-navegacion {
+  font-family: 'Teko', sans-serif;
+  margin: 0 auto;
+  padding: 0 0 3%;
+  width: 100%;
+    height: 270px;
+  background: rgb(1,1,1,.4);    
+}
+.ed-container
+{
+    width: 100%;
+    height: auto;
+    background: pink;
+}
+.main-navegacion h5 {
+  padding: 0.6em 0;
+  font-size: 26px;
+}
+
+.main-navegacion ul {
+  font-size: 16px;
+  display: inline-block;
+  padding-top: 5px;
+}
+
+.main-navegacion div hr {
+  border-top: 6px solid black;
+}
+
+.main-navegacion a {
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.main-navegacion li {
+  list-style: none;
+  padding: 1% 0;
+}
+
+
+.ed-item-aimc{
+  float: left;
+  margin: 3%;
+  width: 25%;
+}
+
+.ed-item-proyectos {
+  float: left;
+  margin: 3% 0;
+  width: 30%;
+}
+
+.ed-item-noticias {
+  float: left;
+  margin: 3%;
+  width: 25%;
+}
+
+/**container del footer/

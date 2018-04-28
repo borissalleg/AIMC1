@@ -1,0 +1,83 @@
+.contenedor-junta
+{
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+    background: transparent;
+}
+ .contenedor-junta .junta-titulo 
+{
+    width: 90%;
+    height: 150px;
+    font-family: 'Viga', sans-serif;
+    background: gray;
+   
+}
+.wrap-junta
+{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background : orange;
+    padding: 25px;
+    
+}
+       .junta-item   
+        {
+
+            width: 30%;
+            min-width: 290px;
+            height: 90%;
+            background: white;
+            border-radius: 5%;
+            margin:0;
+            align-items: center;
+            border: 1px solid #ccc;
+            padding: 25px;
+            justify-content: space-between;
+        }
+            .junta-item-imagen
+            {
+
+                width: 120px;
+                height:120px;
+
+
+            }
+                .junta-item-imagen img
+                {
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                    padding: 5px;
+                    background: gray;    
+                    margin-left: 5%;
+                    margin-top: -8px;
+                }
+                .junta-item-titulo
+                {   position: relative;
+                    margin-top: -50px;
+                    text-align: center;
+                    
+                }
+                .junta-item-articulo {
+                    position: relative;
+                    border-radius: 5%;
+                    height: 50%;
+                    width: 75%;
+                    margin-top: 5px;
+                    margin-left: 45px;
+                    background: rgb(1,1,1,.12);
+                    text-align: center;
+                    padding: 
+                }
+                    .junta-item-articulo h6 {
+                    position: relative;
+                    top: 17px;  
+                    font-size: 14px;
+                        
+                }

@@ -1,0 +1,21 @@
+header
+{
+    width: 100%;
+    height: 200px;
+   
+}
+    .wrap-header
+    {
+        position: relative;
+        margin: 0;
+        margin-left:40%;
+        top: 50px;
+        width: 300px;
+        
+        background: transparent;;
+    }
+        .wrap-header img
+        {
+            width: 100%;
+
+        }
